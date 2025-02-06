@@ -63,11 +63,11 @@ export class UserService {
 			}
 		})
 
-		// // eslint-disable-next-line @typescript-eslint/no-unused-vars
-		// const { password, ...rest } = profile
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
+		const { password, ...rest } = profile
 
 		return {
-			user: profile,
+			user: rest,
 			statistics: [
 				{ label: 'Total', value: totalTasks },
 				{ label: 'Completed tasks', value: completedTasks },
