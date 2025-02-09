@@ -1,4 +1,4 @@
-## The back-end part for Planner App. 
+## The back-end part of the Planner App. 
 
 ## Tech stack: NestJS, Prisma, PostgreSQL
 
